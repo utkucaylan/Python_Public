@@ -2,7 +2,6 @@
 Created on Thu Jan 26 13:49:58 2023
 @author: utkucaylan
 
-Description: Newton-Raphson Method
 =============================================================================================
 Numberical Methods 
     --> Roots of Equations (i. Bracketing ii. Open iii. Roots of Polynomials)
