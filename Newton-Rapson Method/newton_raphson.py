@@ -21,13 +21,14 @@ If the initial guess at the root is xi, a tangent can be extended from the point
 The point where this tangent crosses the x axis usually represents an improved estimate of
 the root.
 
-P.S. See the figures more details.
+P.S. See the figures for more details.
 =============================================================================================
 """
 
 """
 Problem: Use Newton-Raphson method to estimtate the root of f(x) = e^{−x} − x, 
 employing an initial guess of x_0 = 0.
+
 """
 import math
 import numpy as np
