@@ -4,19 +4,30 @@ Created on Thu Jan 26 13:49:58 2023
 
 Description: Newton-Raphson Method
 =============================================================================================
+Numberical Methods 
+    --> Roots of Equations (i. Bracketing ii. Open iii. Roots of Polynomials)
+        --> Open Methods: Only a single starting value of x is required
+                          i.   Simple Fixed-Point Iteration
+                          ii.  Newton Rapson Method
+                          iii. Secant Method
+                          iv.  Brent`s Method 
+                          v.   Multiple Roots
+                          vi.  Systems of Nonlinear Equations
+                          
+            --> Newton-Rapson Method
+
 Perhaps the most widely used of all root-locating formulas is the Newton-Raphson equation. 
 If the initial guess at the root is xi, a tangent can be extended from the point[xi, f (xi)].
 The point where this tangent crosses the x axis usually represents an improved estimate of
 the root.
 
-P.S. See the figures for more details.
+P.S. See the figures more details.
 =============================================================================================
 """
 
 """
-Problem: Use Newton-Raphson method to estimate the root of f(x) = e^{−x} − x, 
+Problem: Use Newton-Raphson method to estimtate the root of f(x) = e^{−x} − x, 
 employing an initial guess of x_0 = 0.
-
 """
 import math
 import numpy as np
