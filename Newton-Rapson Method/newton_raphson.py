@@ -36,10 +36,9 @@ while counter < 100:
   delta_x = (x_ii - x_i)/x_i*100
   x_i = x_ii
   
-  print("The error %.2f" % delta_x)
+  print("The percentage error %.2f" % delta_x)
   if delta_x < 1e-6:
     print("The total number of iterations is %.0f" % counter)
-    print("The percentage error is %.4f" % delta_x)
     print("The root of the given function is %.4f" % x_i)
     break
 
