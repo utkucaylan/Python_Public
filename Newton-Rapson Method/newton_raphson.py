@@ -23,7 +23,6 @@ the root.
 P.S. See the figures for more details.
 =============================================================================================
 """
-
 """
 Problem: Use Newton-Raphson method to estimtate the root of f(x) = e^{−x} − x, 
 employing an initial guess of x_0 = 0.
