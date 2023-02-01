@@ -36,13 +36,13 @@ import numpy as np
 from scipy import optimize
 import matplotlib.pyplot as plt
 
-xl = -16 #lower bound
-xu = 20 #upper bound
+xl = -16.0 #lower bound
+xu = 20.0 #upper bound
 
 def f(x):
     return (x+15)*(x-1)**2
 
-x = range(xl, xu)
+x = range(int(xl), int(xu))
 y = [f(i) for i in x]
 plt.plot(x, y)
 plt.xlabel('x')
