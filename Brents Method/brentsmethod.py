@@ -28,19 +28,19 @@ within the given interval.
 
 
 
-Problem: Find the root of the function f(x) = (x+3)*(x-1)**2 using Brent's Method.
-         Initial interval = [-4,4/3]
+Problem: Find the root of the function f(x) = (x+15)*(x-1)**2 using Brent's Method.
+         Initial interval = [-10,10]
 """
 
 import numpy as np
 from scipy import optimize
 import matplotlib.pyplot as plt
 
-xl = -16.0 #lower bound
-xu = 20.0 #upper bound
+xl = -10.0 #lower bound
+xu = 10.0 #upper bound
 
 def f(x):
-    return (x+15)*(x-1)**2
+    return (x+7)*(x-1)**2
 
 x = range(int(xl), int(xu))
 y = [f(i) for i in x]
