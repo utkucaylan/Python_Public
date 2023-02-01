@@ -29,14 +29,14 @@ within the given interval.
 
 
 Problem: Find the root of the function f(x) = (x+15)*(x-1)**2 using Brent's Method.
-         Initial interval = [-10,10]
+         Initial interval = [-9,10]
 """
 
 import numpy as np
 from scipy import optimize
 import matplotlib.pyplot as plt
 
-xl = -10.0 #lower bound
+xl = -9.0 #lower bound
 xu = 10.0 #upper bound
 
 def f(x):
